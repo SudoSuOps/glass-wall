@@ -137,4 +137,39 @@ The seed is planted. Nature takes care of the rest.
 
 ---
 
+---
+
+## Swarm & Bee Repositories
+
+| Repo | Purpose |
+|------|---------|
+| **[glass-wall](https://github.com/SudoSuOps/glass-wall)** | Architecture, doctrine, and operational philosophy (this repo) |
+| **[Swarn-chain](https://github.com/SudoSuOps/Swarn-chain)** | SwarmChain implementation — FastAPI backend, React explorer, 48 tests |
+
+## Reading Order
+
+| # | Doc | What you learn |
+|---|-----|---------------|
+| 1 | [README.md](README.md) | The vision — Block `0d63d78e` tells the whole story |
+| 2 | [GENESIS.md](GENESIS.md) | Origin — the first titled pair, how it was built |
+| 3 | [DOCTRINE.md](DOCTRINE.md) | The 6-role tribunal — Scout, Router, Filter, Repair, Critic, Katniss |
+| 4 | [HIVE.md](HIVE.md) | Biology = architecture = product |
+| 5 | [SWARMOS.md](SWARMOS.md) | The operating system — HiveOS for AI mining |
+| 6 | [SWARMEVAL.md](SWARMEVAL.md) | The scoring system |
+| 7 | [SWARMREFINERY.md](SWARMREFINERY.md) | The operations brain |
+| 8 | [VALIDATION_PROTOCOL.md](VALIDATION_PROTOCOL.md) | Inspector, appraiser, closing agent |
+| 9 | [FLIGHTSHEET_EPOCH1.md](FLIGHTSHEET_EPOCH1.md) | First real flight sheet |
+| 10 | [CALIBRATION.md](CALIBRATION.md) | Power tuning and model calibration |
+| 11 | [ARENA.md](ARENA.md) | The competitive evaluation framework |
+| 12 | [BEHAVIORAL_EVAL.md](BEHAVIORAL_EVAL.md) | How we eval model behavior |
+| 13 | [PRESSURE_TO_TRUTH.md](PRESSURE_TO_TRUTH.md) | The thesis under pressure |
+| 14 | [SPECTATORS.md](SPECTATORS.md) | The audience — who watches the glass wall |
+| 15 | [FINDING_27B.md](FINDING_27B.md) | Finding: 27B vs 9B results |
+| 16 | [FINDING_ENERGY.md](FINDING_ENERGY.md) | Finding: energy economics |
+| 17 | [DESIGN.md](DESIGN.md) | Visual design language |
+| 18 | [LAYOUT.md](LAYOUT.md) | Dashboard layout spec |
+| 19 | [DISCOVERY.md](DISCOVERY.md) | Discovery and exploration patterns |
+
+---
+
 *Swarm & Bee — Defendable Commercial Compute Intelligence Refinery*
