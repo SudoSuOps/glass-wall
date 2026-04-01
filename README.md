@@ -145,6 +145,7 @@ The seed is planted. Nature takes care of the rest.
 |------|---------|
 | **[glass-wall](https://github.com/SudoSuOps/glass-wall)** | Architecture, doctrine, and operational philosophy (this repo) |
 | **[Swarn-chain](https://github.com/SudoSuOps/Swarn-chain)** | SwarmChain implementation — FastAPI backend, React explorer, 48 tests |
+| **[SwarmOS](https://github.com/SudoSuOps/SwarmOS)** | The operating system — flight sheets, GPU benchmarks, POJ, cost-to-mint |
 
 ## Reading Order
 
