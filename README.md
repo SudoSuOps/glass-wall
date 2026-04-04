@@ -174,3 +174,38 @@ The seed is planted. Nature takes care of the rest.
 ---
 
 *Swarm & Bee — Defendable Commercial Compute Intelligence Refinery*
+
+
+---
+
+## Live Glass Walls (April 2026)
+
+The glass wall is no longer a concept. It's live on the browser.
+
+| Glass Wall | URL | What You See |
+|------------|-----|-------------|
+| **The Arena** | [swarmandbee.ai/chain](https://swarmandbee.ai/chain/) | Live hexagonal hive. Pairs scored in real-time. Judges flanking. Deeds filing. |
+| **The Deed Office** | [swarmandbee.ai/deed](https://swarmandbee.ai/deed/) | Search any deed. Inspect judge scores, reasoning, Merkle proofs. CLI terminal. |
+| **The Refinery** | [swarmandbee.ai/status](https://swarmandbee.ai/status/) | 14/14 fleet checks. Every 5 minutes. Always-on watchdog. |
+| **The Shop** | [swarmandbee.ai/shop](https://swarmandbee.ai/shop/) | Buy deeded datasets. Stripe checkout. Free 100-pair sample. |
+| **The Graph** | [swarmandbee.ai/graph](https://swarmandbee.ai/graph/) | Provenance graph. 512 nodes. Trace any deed through judges and silicon. |
+| **The Scanner** | [swarmandbee.ai/geo](https://swarmandbee.ai/geo/) | GEO scanner. LLM-powered. 3 seconds. Free. |
+| **Hedera Anchors** | [hashscan.io](https://hashscan.io/#/mainnet/topic/0.0.10291838) | On-chain proof. Verify independently. |
+
+## Operational Encyclopedia
+
+The [Swarm-Wiki](https://github.com/SudoSuOps/Swarm-Wiki) is the operational counterpart to this doctrine — 18 sections, 80+ pages covering architecture, models, datasets, infrastructure, audits, and blueprints. The glass-wall is the WHY. The wiki is the HOW.
+
+## Proof of Location (April 2026)
+
+The glass wall evolved. We're not just showing the process — we're proving the outcome.
+
+**Proof of Location**: Measurable, reproducible relocation of AI models from generic to specialist capability. The deed proves origin. The title insures quality. The Proof of Location proves outcome.
+
+See: [swarmandbee.ai/location](https://swarmandbee.ai/location/) (internal strategy document)
+
+---
+
+*Validate the Validator. Prove the Location.*
+
+*Updated: 2026-04-04*
