@@ -171,6 +171,7 @@ The seed is planted. Nature takes care of the rest.
 | 18 | [LAYOUT.md](LAYOUT.md) | Dashboard layout spec |
 | 19 | [DISCOVERY.md](DISCOVERY.md) | Discovery and exploration patterns |
 | 20 | [OFFERING_MEMORANDUM.md](OFFERING_MEMORANDUM.md) | Location over Data — the CRE thesis, XYZ Effect, Proof of Location protocol |
+| 21 | [KARPATHY_SIGNAL.md](KARPATHY_SIGNAL.md) | The Idea File — Karpathy's LLM Wiki pattern mapped to what we built |
 
 ---
 
