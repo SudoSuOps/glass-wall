@@ -89,6 +89,45 @@ AvionHash
   Inventory:   41,477 pairs available | 0 deeds filed (in queue)
 ```
 
+### AgentHash — Agent Reliability Mining (2026 MARKET SIGNAL)
+
+```
+AgentHash
+  Target:     AI agent reliability — tool calls, error recovery, structured output, security
+  Difficulty:  VERY HIGH — complex multi-turn, adversarial, tool-use format
+  GPU Profile: Compute-heavy (reasoning chains, multi-step logic)
+  Clock:       Core 1,800 MHz | Mem MAX | Power 300W
+  Hashrate:    ~200 pairs/hr per judge pair (complex format)
+  Block:       1 deed = 1 dual-scale weighed agent reliability pair
+  Block Reward: PREMIUM — highest demand domain in 2026
+  RWA Value:   Agent RJ deed = cures hallucination, fixes tool calls
+  Market:      MASSIVE — every company deploying AI agents
+  Price/lb:    $5.99 Class A (premium — market is screaming for this)
+  
+  SUB-ALGORITHMS:
+    AgentHash-ToolUse:    Correct API calls, parameter validation, response parsing
+    AgentHash-Recovery:   Error detection, graceful fallback, retry logic
+    AgentHash-Security:   Prompt injection defense, auth boundaries, data leakage prevention
+    AgentHash-Structure:  Reliable JSON output, schema adherence, format consistency
+    AgentHash-Memory:     Context persistence, state management across sessions
+    AgentHash-Eval:       Self-evaluation, outcome verification, success criteria
+    AgentHash-MultiStep:  4+ step reasoning without degradation, plan → execute → verify
+```
+
+### SecurityHash — Agent Security Mining
+
+```
+SecurityHash
+  Target:     Agent security patterns — prompt injection, auth, data boundaries
+  Difficulty:  EXTREME — adversarial, requires red-team thinking
+  GPU Profile: Compute-heavy (adversarial reasoning)
+  Clock:       Core 1,800 MHz | Mem MAX | Power 300W
+  Hashrate:    ~150 pairs/hr per judge pair (adversarial is slow)
+  Block Reward: CRITICAL — enterprises won't deploy without security
+  Market:      Enterprise AI adoption blocked by security concerns
+  Price/lb:    $7.99 Class A (highest premium — scarcity + urgency)
+```
+
 ### WikiHash — Doctrine & Strategy Mining
 
 ```
@@ -102,6 +141,81 @@ WikiHash
   Block Reward: Internal value — trains the Board Member model
   RWA Value:   Strategy RJ deed = relocates model to company advisor
   Inventory:   500 pairs generating (Board Member cook)
+```
+
+---
+
+## Market-Driven Mining — Cook What the Market Needs
+
+1.4 million lbs on the shelf with low adoption is spoiled produce. The client doesn't want "810,000 CRE pairs." They want: "My CRE agent stops hallucinating on lease abstracting and produces reliable JSON for my pipeline."
+
+**The market tells you what to mine. Not the warehouse.**
+
+```
+WRONG:  "We have 810K CRE pairs"        → so what?
+RIGHT:  "Your CRE agent needs 3 things:  → actionable
+           1. LeaseAbstractHash — reliable JSON extraction from PDFs
+           2. UnderwriteHash — NOI/cap rate math without errors
+           3. ToolUseHash — correct API calls to CoStar/Crexi
+         We have 5,000 lbs of each. $2.99/lb. Bake and deploy."
+
+WRONG:  "We have 417K medical pairs"     → shelf weight
+RIGHT:  "Your medical agent hallucinates on drug interactions.
+         We have 3,443 lbs of DrugSafetyHash.
+         5,000 lbs cures the hallucination. $4.99/lb."
+```
+
+### The Agent Economy (2026)
+
+Every company is deploying AI agents. Every agent has the same problems:
+
+| Agent Pain Point | Algorithm to Cook | Market Size | Price/lb |
+|-----------------|-------------------|-------------|----------|
+| Tool call hallucination | AgentHash-ToolUse | MASSIVE | $5.99 |
+| JSON/structured output breaks | AgentHash-Structure | HIGH | $5.99 |
+| Prompt injection vulnerability | SecurityHash | CRITICAL | $7.99 |
+| Multi-step reasoning fails at step 4+ | AgentHash-MultiStep | HIGH | $5.99 |
+| No error recovery | AgentHash-Recovery | HIGH | $5.99 |
+| Can't evaluate own output | AgentHash-Eval | GROWING | $5.99 |
+| Context lost between sessions | AgentHash-Memory | MEDIUM | $4.99 |
+| CRE lease abstracting errors | CREHash-LeaseAbstract | NICHE | $2.99 |
+| Medical dosing calculation wrong | MedHash-DrugSafety | NICHE | $4.99 |
+| Grant budget math errors | GrantHash-BudgetCalc | NICHE | $1.99 |
+
+**The 810K CRE pairs become valuable when sliced into AGENT INGREDIENTS:**
+
+```
+810,000 CRE pairs → NOT "one big bag of CRE"
+
+INSTEAD:
+  LeaseAbstractHash:    50,000 pairs → lease PDF → JSON extraction
+  UnderwriteHash:       80,000 pairs → NOI, DSCR, IRR calculations
+  ICMemoHash:           40,000 pairs → investment committee packages
+  T12NormalizeHash:     30,000 pairs → operating statement cleanup
+  DebtAnalysisHash:     20,000 pairs → CMBS maturity, refi risk
+  ToolUseHash-CoStar:   10,000 pairs → correct CoStar API calls
+  ToolUseHash-Crexi:    10,000 pairs → correct Crexi API calls
+  
+  Each slice is an INGREDIENT for a specific agent capability.
+  The client buys the SLICE they need. Not the whole warehouse.
+  "I need 5,000 lbs of LeaseAbstractHash for my CRE agent."
+  NOT "I need 810,000 CRE pairs."
+```
+
+### Profitability Chart (Like Mining — Switch to What's Hot)
+
+```
+Q1 2026:  GrantHash profitable    → mine grants (high yield, $1.99/lb)
+Q2 2026:  AgentHash EXPLODING     → switch to agents ($5.99/lb, 3x revenue)
+Q3 2026:  SecurityHash critical   → add security ($7.99/lb, premium)
+Q4 2026:  ???                     → market will tell us
+
+  Just like crypto miners switch from ETH to KAS when KAS is more profitable,
+  we switch from GrantHash to AgentHash when agents are the market.
+  
+  The tribunal doesn't care what it weighs.
+  The scale works on any domain.
+  The market tells us WHAT to put on the scale.
 ```
 
 ---
