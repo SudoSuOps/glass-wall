@@ -114,6 +114,46 @@ AgentHash
     AgentHash-MultiStep:  4+ step reasoning without degradation, plan → execute → verify
 ```
 
+### ClawHash — EMERGENCY: Agent Security Crisis (MARKET ON FIRE)
+
+```
+ClawHash
+  Target:     OpenClaw + MCP agent security hardening
+  Difficulty:  EXTREME — adversarial, red-team format, low yield
+  GPU Profile: Compute-heavy (adversarial reasoning chains)
+  Clock:       Core 1,800 MHz | Mem MAX | Power 300W
+  Hashrate:    ~100 pairs/hr per judge pair (adversarial is SLOW)
+  Block:       1 deed = 1 dual-scale weighed security pair
+  Block Reward: EMERGENCY PREMIUM — market is burning
+  RWA Value:   ClawHash deed = prevents breach, hardens agent
+  Market:      ON FIRE — 135K exposed instances, 9 CVEs in 4 days, $45M breach
+  Price/lb:    $9.99 Class A (emergency premium — highest urgency in AI)
+  
+  MARKET SIGNAL (April 2026):
+    - OpenClaw: 346K GitHub stars, 135K exposed instances
+    - 9 CVEs in 4 days, 15K directly vulnerable to RCE
+    - 341 malicious skills (12% of marketplace COMPROMISED)
+    - MCP protocol: 30 CVEs in 60 days
+    - $45M crypto breach via AI trading agent
+    - 10 Mexican gov agencies hacked via AI agents (100M+ records)
+    - NVIDIA built NemoClaw as emergency response
+    - Enterprises FREEZING agent deployments until security solved
+  
+  SUB-ALGORITHMS:
+    ClawHash-Injection:   Prompt injection defense for MCP/tool chains
+    ClawHash-ToolPoison:  Tool description poisoning detection + defense
+    ClawHash-RCE:         Remote code execution prevention patterns
+    ClawHash-Supply:      Supply chain attack detection (malicious skills)
+    ClawHash-Sandbox:     Execution isolation (NVIDIA OpenShell pattern)
+    ClawHash-Audit:       Agent action logging, kill switch, forensics
+    
+  NVIDIA SELLS THE FENCE. WE COOK THE TRAINING.
+    NemoClaw = the guardrail (policy enforcement)
+    ClawHash = the weight (model learns to stay inside the fence)
+    You need BOTH. Fence without training = dog jumps it.
+    Training without fence = no boundary. We sell the training.
+```
+
 ### SecurityHash — Agent Security Mining
 
 ```
