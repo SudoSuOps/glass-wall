@@ -173,6 +173,7 @@ The seed is planted. Nature takes care of the rest.
 | 20 | [OFFERING_MEMORANDUM.md](OFFERING_MEMORANDUM.md) | Location over Data — the CRE thesis, XYZ Effect, Proof of Location protocol |
 | 21 | [KARPATHY_SIGNAL.md](KARPATHY_SIGNAL.md) | The Idea File — Karpathy's LLM Wiki pattern mapped to what we built |
 | 22 | [ALGORITHM_REGISTRY.md](ALGORITHM_REGISTRY.md) | Domain mining protocols — MedHash, CREHash, GrantHash, RWA deeds, miner rewards |
+| 23 | [PROOF_OF_WEIGHT.md](PROOF_OF_WEIGHT.md) | Oil by the barrel, gold by the ounce, intelligence by the pound |
 
 ---
 
