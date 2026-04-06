@@ -195,6 +195,188 @@ Compare to ETH mining at its peak: ~$1-3/hr per 3090.
 
 ---
 
+## Weights-Hash — The Second Axis
+
+Domain-Hash is the WHAT. Weights-Hash is the WHO.
+
+The total cost to mint a deed is the product of both:
+
+```
+COST TO MINT = Domain-Hash (difficulty) × Weights-Hash (energy per token)
+```
+
+### Model Energy Profiles
+
+Every model architecture has a different energy cost per token. Same prompt, different watts.
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    WEIGHTS-HASH REGISTRY                         ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  Qwen-7B-Hash                                                    ║
+║    Parameters:   7B                                              ║
+║    VRAM:         ~5 GB (Q4)                                      ║
+║    Architecture: Qwen 2.5                                        ║
+║    GPU fit:      RTX 3090 (24GB) — 1 card                        ║
+║    Energy class: LOW                                             ║
+║    Role:         Judge B, lightweight scoring                    ║
+║    Best for:     High-throughput, low-cost mining                 ║
+║                                                                  ║
+║  Gemma-12B-Hash                                                  ║
+║    Parameters:   12B                                             ║
+║    VRAM:         ~8 GB (Q4)                                      ║
+║    Architecture: Gemma 3                                         ║
+║    GPU fit:      RTX 3090 (24GB) — 1 card                        ║
+║    Energy class: MEDIUM                                          ║
+║    Role:         Judge A, primary scorer                         ║
+║    Best for:     Balanced quality vs throughput                   ║
+║                                                                  ║
+║  Qwen-27B-Hash                                                   ║
+║    Parameters:   27B                                             ║
+║    VRAM:         ~17 GB (Q4)                                     ║
+║    Architecture: Qwen 3.5                                        ║
+║    GPU fit:      RTX 3090 (24GB) — tight, or RTX 4500 (32GB)    ║
+║    Energy class: HIGH                                            ║
+║    Role:         Board Member, strategy, optimizer               ║
+║    Best for:     Complex reasoning, APE optimization             ║
+║                                                                  ║
+║  Gemma-31B-Hash                                                  ║
+║    Parameters:   31B                                             ║
+║    VRAM:         ~19 GB (Q4) / ~62 GB (bf16)                     ║
+║    Architecture: Gemma 4                                         ║
+║    GPU fit:      RTX 4500 (Q4) or RTX 6000 (bf16)               ║
+║    Energy class: VERY HIGH                                       ║
+║    Role:         Master Writer, fine-tuned specialist, Judge C   ║
+║    Best for:     Maximum quality, multimodal, document parsing   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+### The Mining Matrix
+
+Domain-Hash (rows) × Weights-Hash (columns) = cost to mine 1,000 RJ deeds:
+
+```
+                 Qwen-7B     Gemma-12B    Qwen-27B    Gemma-31B
+                 (5GB,LOW)   (8GB,MED)    (17GB,HIGH) (19GB,V.HIGH)
+  ┌─────────────┬───────────┬────────────┬───────────┬────────────┐
+  │ LegalHash   │  $0.04    │  $0.08     │  $0.16    │  $0.22     │
+  │ (98% RJ)    │  BEST ROI │  Standard  │  Premium  │  Overkill  │
+  ├─────────────┼───────────┼────────────┼───────────┼────────────┤
+  │ GrantHash   │  $0.08    │  $0.16     │  $0.32    │  $0.45     │
+  │ (98% RJ)    │  Cheap    │  SWEET SPOT│  Good     │  Premium   │
+  ├─────────────┼───────────┼────────────┼───────────┼────────────┤
+  │ MedHash     │  $0.13    │  $0.26     │  $0.52    │  $0.72     │
+  │ (85% RJ)    │  Risky*   │  Standard  │  Better Q │  Best Q    │
+  ├─────────────┼───────────┼────────────┼───────────┼────────────┤
+  │ CREHash     │  $0.51    │  $1.03     │  $2.06    │  $2.85     │
+  │ (46% RJ)    │  Bad Q*   │  Standard  │  May help │  May help  │
+  └─────────────┴───────────┴────────────┴───────────┴────────────┘
+
+  * Risky/Bad Q: smaller models may LOWER RJ yield on complex domains,
+    making the total cost HIGHER despite cheaper per-token energy.
+    The cheapest model is not always the cheapest miner.
+```
+
+### The Trade-Off
+
+```
+EFFICIENCY MINING:
+  Pick: LegalHash + Qwen-7B → $0.04 per 1,000 RJ deeds
+  Sell at $29/1,000 → 725x return
+  Strategy: volume, speed, low difficulty
+
+QUALITY MINING:
+  Pick: MedHash + Gemma-31B → $0.72 per 1,000 RJ deeds
+  But: RJ yield may be HIGHER with bigger model (85% → 92%?)
+  Sell at $29/1,000 → 40x return
+  Strategy: premium product, higher quality, defensible
+
+THE QUESTION:
+  Does a bigger model produce higher RJ yield on hard domains?
+  If Gemma-31B scores MedHash at 92% RJ vs Gemma-12B at 85%,
+  the bigger model is CHEAPER per RJ deed despite higher energy:
+
+    12B: $0.26 / 0.85 = $0.306 per 1,000 RJ
+    31B: $0.72 / 0.92 = $0.783 per 1,000 RJ → still more expensive
+    
+    BUT: 31B produces BETTER quality RJ (higher scores, more defensible)
+    The deed sells for the same price but has more value.
+    
+  This is the CRE parallel:
+    Class B building: cheaper to build, lower rent
+    Class A building: expensive to build, premium rent
+    The ROI depends on the market, not just the cost.
+```
+
+### Weights-Hash as Flight Sheet Variable
+
+A complete flight sheet now has THREE dimensions:
+
+```
+FLIGHT SHEET v2:
+  Algorithm:    MedHash (domain)
+  Weights:      Gemma-12B-Hash (model)
+  Clock:        Core 1,200 | Mem MAX | PL 200W (GPU profile)
+  
+  Together these determine:
+    Hashrate:   300 pairs/hr
+    RJ yield:   85%
+    Energy:     0.22 kWh per RJ deed
+    Cost:       $0.000220 per deed
+    Revenue:    $0.029 per deed (at $29/1,000)
+    Margin:     99.2%
+```
+
+### Training Energy (Weights-Hash in Cook Mode)
+
+Mining (inference) and cooking (training) have different energy profiles:
+
+```
+INFERENCE (mining deeds):
+  Energy = tokens_generated × energy_per_token(model)
+  Scales linearly with pair count
+  Bottleneck: memory bandwidth
+
+TRAINING (cooking models):
+  Energy = steps × energy_per_step(model) × epochs
+  Scales with dataset size AND model size
+  Bottleneck: memory bandwidth (same as mining!)
+
+Gemma 4 31B cook:
+  3,204 steps × 5.33 Wh/step × 1 = 17.1 kWh = $1.71
+  37 hours at 300W
+
+Qwen 3.5 27B cook (estimated):
+  ~2,500 steps × ~4.5 Wh/step × 1 = 11.3 kWh = $1.13
+  ~28 hours at 280W
+  
+  Smaller model = less energy to cook
+  But: does the smaller cook produce equivalent quality?
+  The Proof of Location benchmark answers this.
+```
+
+### Time-Energy-Quality Triangle
+
+```
+         TIME
+        /    \
+       /      \
+      /  PICK  \
+     /   TWO    \
+    /            \
+ENERGY ──────── QUALITY
+
+  Fast + Cheap    = Low quality (small model, easy domain)
+  Fast + Quality  = Expensive (big model, lots of GPU)
+  Cheap + Quality = Slow (small model, careful scoring)
+```
+
+Every mining decision is a position in this triangle. The flight sheet encodes the choice.
+
+---
+
 *The deed proves where it came from. The title insures the quality. The Proof of Location proves the outcome. The miner gets paid.*
 
 *Validate the Validator. Mine the Location.*
