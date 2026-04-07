@@ -64,7 +64,7 @@ An inspection report says: "The foundation is solid (structure: 0.97), it's in a
 
 The buyer of a Swarm & Bee dataset doesn't just get "0.87 Royal Jelly." They get the breakdown that proves why, and the prescription for what to improve. The deed becomes a diagnostic tool, not just a quality stamp.
 
-With dual judges, each deed carries **10 data points** (5 dimensions x 2 judges). Two independent architectures (gemma3:12b + qwen2.5:7b) producing dimension-level agreement. Unimpeachable.
+With dual scales, each deed carries **10 data points** (5 dimensions x 2 scales). Two independent architectures (gemma3:12b + qwen2.5:32b) producing dimension-level agreement. Unimpeachable.
 
 ## Integration Points
 

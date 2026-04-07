@@ -23,8 +23,8 @@ Nobody asks "what did the gold score?" They ask "how much does it weigh?" The we
 AI training data is the newest commodity. And like every commodity before it, the market will price it by weight.
 
 ```
-Royal Jelly:  $0.029 per pound (weight >= 0.75)
-Honey:        $0.010 per pound (weight 0.50-0.74)
+Royal Jelly:  $0.029 per pound (weight >= 0.85)
+Honey:        $0.010 per pound (weight 0.70-0.84)
 Propolis:     $0.000 per pound (no weight, no value)
 ```
 
@@ -103,7 +103,7 @@ THE INVOICE:
   │                                         │
   │ Certified: Dual-scale consensus         │
   │ Scale A:   gemma3:12b (Blackwell)       │
-  │ Scale B:   qwen2.5:7b (Ampere)         │
+  │ Scale B:   qwen2.5:32b (Blackwell)      │
   │ Drift:     0.02 (calibrated)            │
   │ Sealed:    Merkle batch #467            │
   │ Anchored:  Hedera topic 0.0.10291838    │
@@ -120,18 +120,18 @@ THE INVOICE:
 Like boxing. Like freight. Like produce grades.
 
 ```
-HEAVYWEIGHT (Royal Jelly — weight >= 0.75):
+HEAVYWEIGHT (Royal Jelly — weight >= 0.85):
   Dense, specific, authoritative
   Moves the model. Relocates.
   The machine gains intelligence.
   Price: $0.029/lb
 
-MIDDLEWEIGHT (Honey — weight 0.50-0.74):
+MIDDLEWEIGHT (Honey — weight 0.70-0.84):
   Adequate, some substance
   Shifts the model. Partial relocation.
   Price: $0.010/lb
 
-LIGHTWEIGHT (Propolis — weight < 0.50):
+LIGHTWEIGHT (Propolis — weight < 0.70):
   Thin, generic, no substance
   Machine barely registers it.
   No weight. No value. No price.

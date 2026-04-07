@@ -82,7 +82,7 @@ Delta = New Location - Base Location. Every number reproducible. Every score has
 
 | | |
 |---|---|
-| Judges | gemma3:12b + qwen2.5:7b (base, unmodified) |
+| Scales | gemma3:12b + qwen2.5:32b (base, unmodified) |
 | Protocol | 2-pass validation, drift ≤ 0.15 |
 | Verification | swarmandbee.ai/deed/ |
 
